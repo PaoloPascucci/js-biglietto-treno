@@ -18,8 +18,10 @@ else if (UserAge >= "65") {
     console.log(final_price);
 }
 else {
-    var final_price = ticket_price
+    var final_price = ticket_price;
 
     console.log(final_price);
 }
 
+
+document.getElementById('testo').innerHTML = final_price;
